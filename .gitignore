@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Local editor/OS noise
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary measuring/debug files created while tracing
+crop_*.png
+measure_*.png
+window_*_tick.png
+floorplan_grid.png
+
+# Local backup passes
+*.bak
+*.bak-*
+
+# Optional CAD/export outputs
+*.brep
+*.step
+*.stp
+*.stl
+*.3mf
